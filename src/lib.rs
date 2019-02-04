@@ -1,8 +1,6 @@
-#[cfg(test)]
-mod tests {
-  #[test]
+use wasm_bindgen::prelude::*;
 
-  fn it_works() {
-    assert_eq!(2 + 2, 4);
-  }
+#[wasm_bindgen]
+pub fn hello_world() -> String {
+  "Hello, World!".into()
 }
