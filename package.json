@@ -1,0 +1,7 @@
+{
+	"name": "wasm-edgy",
+	"version": "0.1.0",
+	"main": "index.js",
+	"author": "Paul Simk <psimk@gmail.com>",
+	"license": "ISC"
+}
