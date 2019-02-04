@@ -1,0 +1,12 @@
+[package]
+name = "wasm-edgy"
+version = "0.1.0"
+authors = ["Paul Simk <psimk@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+js-sys = "0.3.10"
+wasm-bindgen = "0.2.33"
